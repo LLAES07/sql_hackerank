@@ -14,7 +14,8 @@ For example, if there are three records in the table with CITY values 'New York'
 **SOLUCIÓN**
 
 ```sql
-
+SELECT 
+    (SELECT COUNT(*) FROM STATION) - (SELECT COUNT(DISTINCT CITY) FROM STATION);
 
 ```
 
@@ -23,6 +24,7 @@ For example, if there are three records in the table with CITY values 'New York'
 
 
 ````
+13
 
 
 ```
