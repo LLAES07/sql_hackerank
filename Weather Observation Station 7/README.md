@@ -6,7 +6,7 @@ Query the list of CITY names ending with vowels (a, e, i, o, u) from STATION. Yo
 
 
 
-![alt text](image.png)
+![alt text](image.jpg)
 
 **SOLUCIÓN**
 
