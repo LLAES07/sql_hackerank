@@ -5,6 +5,7 @@ Query the list of CITY names from STATION that do not start with vowels and do n
 
 
 
+![alt text](image.jpg)
 
 
 **SOLUCIÓN**
