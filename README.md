@@ -4,3 +4,21 @@
 Este proyecto contiene mis soluciones a diversos desafíos de SQL de [HackerRank](https://www.hackerrank.com/domains/sql), organizados por dificultad y tema. Lo he creado para mejorar mis habilidades en SQL y mantener un registro claro y bien documentado de mi progreso.
 
 Ya sea que estés aprendiendo SQL o buscando soluciones de referencia, espero que este repositorio te sea útil en tu camino. 🚀
+--
+
+## 🧩 Categorías de Problemas
+
+Las soluciones están organizadas en carpetas según los niveles de dificultad de HackerRank:
+
+- ✅ **Select Básico** Finalizado ✅✅
+- ✅ **Select Avanzado** --
+- ✅ **Agregaciones** En progreso
+- ✅ **Joins Básicos** -- 
+- ✅ **Joins Avanzados** -- 
+- ✅ **Consultas Alternativas** --
+
+Cada archivo SQL incluye:
+- El título del problema en una carpeta
+- Una breve descripción
+- Mi solución
+- Notas (si son necesarias)
