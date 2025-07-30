@@ -9,8 +9,12 @@ Write a query that prints a list of employee names (i.e.: the name attribute) fr
 **SOLUCIÓN**
 
 ```sql
+
 SELECT 
-    (SELECT COUNT(*) FROM STATION) - (SELECT COUNT(DISTINCT CITY) FROM STATION);
+    name
+FROM
+    employee
+ORDER BY name ASC;
 
 ```
 
@@ -19,7 +23,25 @@ SELECT
 
 
 ````
-13
-
+Alan 
+Amy 
+Andrew 
+Andrew 
+Angela 
+Ann 
+Anna 
+Anthony 
+Antonio 
+Benjamin 
+Bonnie 
+Brandon 
+Brandon 
+Brian 
+Carol 
+Charles 
+Christina 
+Christina 
+Christine 
+Christine {-truncated-}
 
 ```
