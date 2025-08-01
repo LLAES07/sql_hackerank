@@ -11,13 +11,11 @@ Query the sum of the populations for all Japanese cities in CITY. The COUNTRYCOD
 **SOLUCIÓN**
 
 ```sql
-
-SELECT
-    SUM(population) AS total_jpn_pop
-FROM
-    city
-WHERE
-    countrycode LIKE 'JPN';
+SELECT CEIL(
+    AVG(salary) - 
+    AVG(CAST(REPLACE(CAST(salary AS CHAR), '0', '') AS UNSIGNED))
+) AS error
+FROM employees;
 
 
 ```
@@ -28,7 +26,7 @@ WHERE
 
 ````
 
-454250
+2253
 
 
 
