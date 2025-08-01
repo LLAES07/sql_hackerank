@@ -17,8 +17,4 @@ Las soluciones están organizadas en carpetas según los niveles de dificultad d
 - ✅ **Joins Avanzados** -- 
 - ✅ **Consultas Alternativas** --
 
-Cada archivo SQL incluye:
-- El título del problema en una carpeta
-- Una breve descripción
-- Mi solución
-- Notas (si son necesarias)
+
