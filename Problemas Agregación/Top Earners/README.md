@@ -10,7 +10,13 @@ We define an employee's total earnings to be their monthly ´salay x months´  w
 
 ```sql
 
-
+SELECT 
+    MAX(salary * months) AS max_earnings,
+    COUNT(*) AS num_employees
+FROM 
+    Employee
+WHERE 
+    (salary * months) = (SELECT MAX(salary * months) FROM Employee);
 
 ```
 
@@ -20,6 +26,7 @@ We define an employee's total earnings to be their monthly ´salay x months´  w
 
 ````
 
+108064 7 
 
 
 ```
