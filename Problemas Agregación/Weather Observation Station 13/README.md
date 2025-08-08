@@ -2,6 +2,9 @@
 **[ENG]**
 Query the sum of Northern Latitudes (LAT_N) from STATION having values greater than 38.7880  and less than 137.2345 . Truncate your answer to  decimal places.
 
+**[ESP]**
+
+Consulta la suma de las latitudes del norte (LAT_N) de la tabla STATION que tengan valores mayores que 38.7880 y menores que 137.2345. Trunca tu respuesta a lugares decimales.
 ![alt text](image.png)
 
 **SOLUCIÓN**
