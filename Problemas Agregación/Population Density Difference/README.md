@@ -2,6 +2,9 @@
 **[ENG]**
 Query the difference between the maximum and minimum populations in CITY.
 
+**[ESP]**
+
+Consulta la diferencia entre la población máxima y la mínima en CITY.
 
 
 
