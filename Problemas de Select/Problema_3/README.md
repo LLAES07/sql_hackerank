@@ -5,6 +5,10 @@ Query all columns (attributes) for every row in the CITY table.
 
 The CITY table is described as follows:
 
+
+**[ESP]**  
+Consulta todas las columnas (atributos) para cada fila en la tabla CITY.
+
 ![alt text](image.png)
 
 
