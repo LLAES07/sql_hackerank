@@ -5,6 +5,10 @@ Query the NAME field for all American cities in the CITY table with populations 
 
 The CITY table is described as follows:
 
+
+**[ESP]**  
+Consulta el campo NAME de todas las ciudades estadounidenses en la tabla CITY con poblaciones mayores a 120000. El CountryCode para Estados Unidos es USA.
+
 ![alt text](image.png)
 
 
