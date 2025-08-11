@@ -2,10 +2,15 @@
 **[ENG]**
 Query a list of CITY and STATE from the STATION table.
 The STATION table is described as follows:
-![alt text](image.png)
 where LAT_N is the northern latitude and LONG_W is the western longitude.
 
+**[ESP]**  
+Consulta una lista de CITY y STATE de la tabla STATION.  
+La tabla STATION se describe de la siguiente manera:
 
+donde LAT_N es la latitud norte y LONG_W es la longitud oeste.
+
+![alt text](image.png)
 
 **SOLUCIÓN**
 
