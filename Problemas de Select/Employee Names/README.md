@@ -2,6 +2,10 @@
 **[ENG]**
 
 Write a query that prints a list of employee names (i.e.: the name attribute) from the Employee table in alphabetical order.
+**[ESP]**  
+Escribe una consulta que imprima una lista de nombres de empleados (es decir, el atributo name) de la tabla Employee en orden alfabético.
+
+
 
 ![alt text](image.png)
 
