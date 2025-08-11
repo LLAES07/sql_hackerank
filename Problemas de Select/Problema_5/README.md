@@ -5,6 +5,10 @@ Query all attributes of every Japanese city in the CITY table. The COUNTRYCODE f
 
 The CITY table is described as follows:
 
+
+**[ESP]**  
+Consulta todos los atributos de cada ciudad japonesa en la tabla CITY. El COUNTRYCODE para Japón es JPN.
+
 ![alt text](image.png)
 
 
