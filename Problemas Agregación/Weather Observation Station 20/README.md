@@ -2,6 +2,10 @@
 **[ENG]**
 A median is defined as a number separating the higher half of a data set from the lower half. Query the median of the Northern Latitudes (LAT_N) from STATION and round your answer to 4 decimal places.
 
+
+**[ESP]**  
+Una mediana se define como un número que separa la mitad superior de un conjunto de datos de la mitad inferior. Consulta la mediana de las Latitudes Norte (LAT_N) de la tabla STATION y redondea tu respuesta a 4 cifras decimales.
+
 ![alt text](image.jpg)
 
 **SOLUCIÓN**
