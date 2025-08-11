@@ -5,6 +5,12 @@ Query all columns for all American cities in the CITY table with populations lar
 
 The CITY table is described as follows:
 
+
+**[ESP]**  
+Consulta todas las columnas de todas las ciudades estadounidenses en la tabla CITY con poblaciones mayores a 100000. El CountryCode para Estados Unidos es USA.
+
+
+
 ![alt text](image.png)
 
 
