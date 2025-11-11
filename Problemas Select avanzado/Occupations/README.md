@@ -23,7 +23,7 @@ Occupation will only contain one of the following values: Doctor, Professor, Sin
 
 
 ```sql
--- 1ER paso generar un row_number
+-- 1ER paso generar un row_number seleccionando nombre, ocupación. Agregamos una columna nueva para poder ordenar alfabeticamente los nombres 
 WITH ranking1 AS (
                     SELECT
                         name,
@@ -33,6 +33,10 @@ WITH ranking1 AS (
                         occupations
                 )
 
+
+/*
+Ahora con el ranking listo agrupamos las filas por cada ranking para que cada ocupación se quede alineada en forma de columnas y cada una de estas tenga solo un ranking 1, 2, 3, etc. En este caso utilizamos MAX(CASE) para poder transformar las filas a columnas y en caso de una ocupacion no estar dentro de esta es NULL.
+*/
 SELECT
     MAX(CASE
         WHEN occupation = 'Doctor' THEN name end)  as Doctor,
