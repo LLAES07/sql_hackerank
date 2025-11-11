@@ -23,7 +23,28 @@ Occupation will only contain one of the following values: Doctor, Professor, Sin
 
 
 ```sql
+-- 1ER paso generar un row_number
+WITH ranking1 AS (
+                    SELECT
+                        name,
+                        occupation,
+                        ROW_NUMBER() OVER(PARTITION BY occupation ORDER BY name ASC) as rking
+                    FROM
+                        occupations
+                )
 
+SELECT
+    MAX(CASE
+        WHEN occupation = 'Doctor' THEN name end)  as Doctor,
+    MAX(CASE
+        WHEN occupation = 'Professor' THEN name end) as Professor,
+    MAX(CASE
+        WHEN occupation = 'Singer' THEN name end) as Singer,
+    MAX(CASE
+        WHEN occupation = 'Actor' THEN name end) as Actor
+FROM
+    ranking1
+GROUP BY rking;
 ````
 
 
@@ -33,6 +54,12 @@ Occupation will only contain one of the following values: Doctor, Professor, Sin
 
 
 ````
-
+Aamina Ashley Christeen Eve 
+Julia Belvet Jane Jennifer 
+Priya Britney Jenny Ketty 
+NULL Maria Kristeen Samantha 
+NULL Meera NULL NULL 
+NULL Naomi NULL NULL 
+NULL Priyanka NULL NULL
 
 ```
