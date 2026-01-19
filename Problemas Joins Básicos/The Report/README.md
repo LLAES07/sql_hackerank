@@ -20,4 +20,20 @@ Finally, if the grade is lower than 8, use `"NULL"` as their name and list them 
 Write a query to help Eve.
 
 
+# Respuesta
 
+
+```sql
+
+SELECT
+    CASE WHEN GRADES.GRADE<8 THEN 'NULL' ELSE STUDENTS.Name END AS Name, 
+    GRADES.GRADE,
+    STUDENTS.Marks
+FROM
+    STUDENTS
+JOIN 
+    GRADES ON STUDENTS.Marks BETWEEN GRADES.Min_mark AND GRADES.Max_mark
+ORDER BY GRADES.GRADE DESC, (CASE WHEN GRADES.Grade >= 8 THEN STUDENTS.Name END) ASC, 
+         (CASE WHEN GRADES.Grade < 8 THEN STUDENTS.Marks END) ASC;
+
+```
