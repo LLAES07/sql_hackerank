@@ -10,4 +10,9 @@ The following tables contain contest data:
 
 - **Hackers**: The `hacker_id` is the id of the hacker, and `name` is the name of the hacker. :contentReference[oaicite:2]{index=2}
 
+
+![alt text](image1.png)
+
+
 - **Submissions**: The `submission_id` is the id of the submission, `hacker_id` is the id of the hacker who made the submission, `challenge_id` is the id of the challenge for which the submission belongs to, and `score` is the score of the submission. :contentReference[oaicite:3]{index=3}
+![alt text](image2.png)
