@@ -28,8 +28,9 @@ SELECT
     w.power
 FROM wands w
 JOIN wands_property p ON w.code = p.code
-WHERE p.is_evil = 0
+WHERE p.is_evil = 0 -- Varitas no evil
   AND w.coins_needed = (
+        -- subquery para tomar el mínimo necesario para la combinación de edad y año
       SELECT MIN(coins_needed)
       FROM wands w1
       JOIN wands_property p1 ON w1.code = p1.code
@@ -37,6 +38,7 @@ WHERE p.is_evil = 0
         AND p1.age = p.age
   )
 ORDER BY 
+    -- Ordenamiento requerido
     w.power DESC, 
     p.age DESC;
 
