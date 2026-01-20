@@ -14,7 +14,7 @@ Las soluciones están organizadas en carpetas según los niveles de dificultad d
 - ✅ **Select Avanzado** --
 - ✅ **Agregaciones** Finalizado ✅✅
 - ✅ **Joins Básicos** En progreso
-- ✅ **Joins Avanzados** -- 
+- ✅ **Joins Avanzados** -- En progreso
 - ✅ **Consultas Alternativas** --
 
 
