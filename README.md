@@ -13,7 +13,7 @@ Las soluciones están organizadas en carpetas según los niveles de dificultad d
 - ✅ **Select Básico** Finalizado ✅✅
 - ✅ **Select Avanzado** --
 - ✅ **Agregaciones** Finalizado ✅✅
-- ✅ **Joins Básicos** En progreso
+- ✅ **Joins Básicos** Finalizado ✅✅
 - ✅ **Joins Avanzados** -- En progreso
 - ✅ **Consultas Alternativas** --
 
