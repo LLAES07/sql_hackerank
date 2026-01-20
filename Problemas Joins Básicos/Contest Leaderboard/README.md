@@ -19,4 +19,35 @@ The following tables contain contest data:
 
 
 # RESPUESTA
+```sql
 
+WITH maximo_por_challenge AS (
+    SELECT
+        hacker_id,
+        challenge_id,
+        MAX(score) AS max_score
+    FROM Submissions
+    GROUP BY hacker_id, challenge_id
+),
+totales AS (
+    SELECT
+        hacker_id,
+        SUM(max_score) AS total_score
+    FROM maximo_por_challenge
+    GROUP BY hacker_id
+)
+SELECT
+    t.hacker_id,
+    h.name,
+    t.total_score
+FROM totales t
+JOIN Hackers h
+  ON h.hacker_id = t.hacker_id
+WHERE t.total_score > 0
+ORDER BY
+    t.total_score DESC,
+    t.hacker_id ASC;
+
+
+
+```
